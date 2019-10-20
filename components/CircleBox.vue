@@ -1,6 +1,6 @@
 <template>
 <div class="circle flex-center" :style="style">
-    <img :src="`/images/languages/${language}.png`" alt="">
+    <img :src="`/cordindex/images/languages/${language}.png`" alt="">
     <h2>{{ language }}</h2>
 </div>
 </template>

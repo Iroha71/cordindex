@@ -24,7 +24,7 @@ html {
   margin: 0;
 }
 .container-fluid{
-  background: url('/images/bg-cyberpunk.jpg');
+  background: url('/cordindex/images/bg-cyberpunk.jpg');
   &::before{
     content: '';
     filter: blur(2px);
