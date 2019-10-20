@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'marske';
+    src: url('../fonts/Marske.otf') format("opentype")
+}
+
+.center{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
