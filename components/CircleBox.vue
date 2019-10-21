@@ -1,5 +1,5 @@
 <template>
-<div class="circle flex-center" :style="style">
+<div class="circle flex-center" :style="style" @click="$router.push(transPath)">
     <img :src="`/images/languages/${language}.png`" alt="">
     <h2>{{ language }}</h2>
 </div>
@@ -10,7 +10,8 @@ export default {
     props:[
         'size',
         'language',
-        'color'
+        'color',
+        'transPath'
     ],
     data(){
         return{
@@ -35,6 +36,7 @@ export default {
         color: #fff;
         font-family: 'marske';
         font-weight: bold;
+        border: none;
     }
     img{
         width: 70%;

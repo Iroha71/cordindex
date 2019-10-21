@@ -25,6 +25,7 @@ html {
 }
 .container-fluid{
   background: url('/images/bg-cyberpunk.jpg');
+  background-attachment: fixed;
   &::before{
     content: '';
     filter: blur(2px);
