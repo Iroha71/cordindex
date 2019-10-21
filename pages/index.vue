@@ -18,7 +18,7 @@
     </h2>
   </div>
   <div class="col-sm-12 menu-area d-flex justify-content-around">
-    <CircleBox size="20vw" color="#fff" language="laravel" v-if="isSmall" />
+    <CircleBox size="15vw" color="#fff" language="laravel" v-if="isSmall" transPath="/php/laravel" />
   </div>
 </div>
 </template>
@@ -53,6 +53,7 @@ export default {
     font-family: 'marske';
     color: #fff;
     transition: .5s;
+    border: none;
     .titlespan, .verspan{
       animation: neon 3.0s ease 0s both;
       font-size: 3em;
@@ -68,6 +69,8 @@ export default {
 
 .menu-area{
   height: 80vh;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 @keyframes neon {

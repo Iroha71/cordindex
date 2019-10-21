@@ -10,7 +10,8 @@ export default {
     props:[
         'size',
         'language',
-        'color'
+        'color',
+        'transPath'
     ],
     data(){
         return{
@@ -35,6 +36,7 @@ export default {
         color: #fff;
         font-family: 'marske';
         font-weight: bold;
+        border: none;
     }
     img{
         width: 70%;
