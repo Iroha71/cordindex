@@ -74,15 +74,3 @@ export default {
     layout: 'desc'
 }
 </script>
-
-<style lang="scss" scoped>
-.parent{
-    max-height: 100%;
-    overflow-y: scroll;
-    .content{
-        width: 100%;
-        padding: 15px;
-        background: rgba(255,255,255,0.7);
-    }
-}
-</style>

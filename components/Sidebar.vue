@@ -1,6 +1,8 @@
 <template>
 <div class="col-2 d-none d-lg-block">
-    <h5 @click="$router.push('/')">ＴＯＰ</h5>
+    <h5 @click="$router.push('/')">TOP</h5>
+    <h5 @click="$router.push('/php/laravel')">laravel</h5>
+    <h5 @click="$router.push('/js/nuxt')">NUXT.js</h5>
 </div>
 </template>
 
@@ -15,6 +17,7 @@ div{
     flex-direction: column;
     padding-top: 15px;
     h5{
+        padding-left: 5px;
         border-left: solid 5px #31adb6;
         border-bottom: solid 1px #31adb6;
     }
