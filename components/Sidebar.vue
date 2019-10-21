@@ -1,6 +1,6 @@
 <template>
 <div class="col-2 d-none d-lg-block">
-    <h5 @click="$router.push('/cordindex/')">ＴＯＰ</h5>
+    <h5 @click="$router.push('/')">ＴＯＰ</h5>
 </div>
 </template>
 

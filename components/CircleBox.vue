@@ -1,5 +1,5 @@
 <template>
-<div class="circle flex-center" :style="style">
+<div class="circle flex-center" :style="style" @click="$router.push(transPath)">
     <img :src="`/cordindex/images/languages/${language}.png`" alt="">
     <h2>{{ language }}</h2>
 </div>
