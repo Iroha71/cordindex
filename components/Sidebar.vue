@@ -3,6 +3,7 @@
     <h5 @click="$router.push('/')">TOP</h5>
     <h5 @click="$router.push('/php/laravel')">laravel</h5>
     <h5 @click="$router.push('/js/nuxt')">NUXT.js</h5>
+    <h5 @click="$router.push('/ruby/rails')">Ruby on Rails</h5>
 </div>
 </template>
 

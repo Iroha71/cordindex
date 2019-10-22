@@ -19,6 +19,7 @@
   </div>
   <div class="col-sm-12 menu-area d-flex justify-content-around">
     <CircleBox size="15vw" color="#fff" language="laravel" v-if="isSmall" transPath="/php/laravel" />
+    <CircleBox size="15vw" color="#fff" language="rails" v-if="isSmall" transPath="/ruby/rails" />
     <CircleBox size="15vw" color="#fff" language="nuxt.js" v-if="isSmall" transPath="/js/nuxt" />
   </div>
 </div>
@@ -39,7 +40,7 @@ export default {
     return{
       isSmall: false,
       titleText: 'WELC0ME 2 INDEX',
-      verText: 'ver.1.0.1'
+      verText: 'ver.2.0.0'
     }
   }
 }
