@@ -21,6 +21,7 @@
     <CircleBox size="15vw" color="#fff" language="laravel" v-if="isSmall" transPath="/php/laravel" />
     <CircleBox size="15vw" color="#fff" language="rails" v-if="isSmall" transPath="/ruby/rails" />
     <CircleBox size="15vw" color="#fff" language="nuxt.js" v-if="isSmall" transPath="/js/nuxt" />
+    <CircleBox size="15vw" color="#fff" language="LineBot" v-if="isSmall" transPath="/js/linebot" />
   </div>
 </div>
 </template>
