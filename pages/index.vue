@@ -41,7 +41,7 @@ export default {
     return{
       isSmall: false,
       titleText: 'WELC0ME 2 INDEX',
-      verText: 'ver.3.0.1'
+      verText: 'ver.3.0.2'
     }
   }
 }

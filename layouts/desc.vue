@@ -4,7 +4,9 @@
         <transition name="slide" mode="out-in">
             <Sidebar />
         </transition>
-        <nuxt />
+        <transition name="fade" mode="out-in">
+            <nuxt />
+        </transition>
     </div>
 </div>
 </template>
@@ -20,6 +22,15 @@ export default {
 
 <style lang="scss" scoped>
 .slide{
+    &-enter-active, &-leave-active{
+        transition: .5s;
+    }
+    &-enter, &-leave-to{
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+.fade{
     &-enter-active, &-leave-active{
         transition: .5s;
     }

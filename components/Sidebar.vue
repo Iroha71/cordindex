@@ -22,6 +22,11 @@ div{
         padding-left: 5px;
         border-left: solid 5px #31adb6;
         border-bottom: solid 1px #31adb6;
+        transition: .3s;
+        cursor: pointer;
+        &:hover{
+            background: #31adb6;
+        }
     }
 }
 </style>
