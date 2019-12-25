@@ -21,6 +21,7 @@
     <CircleBox size="15vw" color="#fff" language="laravel" v-if="isSmall" transPath="/php/laravel" />
     <CircleBox size="15vw" color="#fff" language="rails" v-if="isSmall" transPath="/ruby/rails" />
     <CircleBox size="15vw" color="#fff" language="nuxt.js" v-if="isSmall" transPath="/js/nuxt" />
+    <CircleBox size="15vw" color="#fff" language="LineBot" v-if="isSmall" transPath="/js/linebot" />
   </div>
 </div>
 </template>
@@ -40,7 +41,7 @@ export default {
     return{
       isSmall: false,
       titleText: 'WELC0ME 2 INDEX',
-      verText: 'ver.2.0.0'
+      verText: 'ver.3.0.3'
     }
   }
 }
